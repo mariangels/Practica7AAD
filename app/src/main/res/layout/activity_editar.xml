@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.mariangeles.practica.Editar">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eNombre"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="palabra" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eTraduccion"
+        android:layout_below="@+id/eNombre"
+        android:layout_centerHorizontal="true"
+        android:hint="traduccion" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eIdioma"
+        android:layout_below="@+id/eTraduccion"
+        android:layout_centerHorizontal="true"
+        android:hint="idioma" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eSignificado"
+        android:layout_below="@+id/eIdioma"
+        android:layout_centerHorizontal="true"
+        android:hint="significado" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/button"
+        android:layout_below="@+id/eSignificado"
+        android:layout_centerHorizontal="true"
+        android:onClick="guardar" />
+</RelativeLayout>

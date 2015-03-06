@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mariangeles.practica.Diccionario" >
+    <item android:id="@+id/mneditar"
+        android:title="@string/str_editar"/>
+    <item android:id="@+id/mnborrar"
+        android:title="@string/str_borrar" />
+    <item android:id="@+id/mnmostrar"
+        android:title="@string/str_mostrar" />
+</menu>
